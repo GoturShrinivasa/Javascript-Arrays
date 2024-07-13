@@ -116,3 +116,36 @@ getCompanyDetails();
 console.log(acquire);// Uncaught ReferenceError: acquire is not defined
  even though we have declared var acquire inside a function, it is not available outside the function.
 */
+//==========================================================================================================
+//===========================================================================================================
+
+// var variable = 10;
+// (()=>{
+//   console.log(variable);   // undefined
+//   var variable = 20;
+//   console.log(variable);   // 20
+// })();
+
+// console.log(variable);//10
+// var variable = 30;
+
+//---------------------------------------
+// var variable = 10;
+// (()=>{
+//   console.log(variable);   // undefined
+//   variable = 20;
+//   console.log(variable);   // 20
+// })();
+
+// console.log(variable);//20
+// var variable = 30;
+// -------------------------------------------
+// var variable = 10;
+// (()=>{
+//   console.log(variable);   // undefined
+//   variable = 20;
+//   console.log(variable);   // 20
+// })();
+// console.log(variable);//20
+// var variable = 30;
+// console.log(variable);
