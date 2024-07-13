@@ -1,5 +1,5 @@
 /*scenario1
-example on let is block scope.
+example on let in block scope.
 var warrior = 'Ninja';
 
 const screamWarrior = () => {
